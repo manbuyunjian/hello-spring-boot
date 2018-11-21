@@ -10,6 +10,6 @@ public class MyController {
 
     @RequestMapping(value = "hello",method = RequestMethod.GET)
     public String getWechatOpenid(){
-        return "index";
+        return "index，hello";
     }
 }
